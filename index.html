@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="assets/css/main.css">
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section id="wrapper">
+	<section id="header">
+		<h1 class="title draw">7 e mezzo</h1>	
+	</section>
+
+	<section class="card-wrapper" id="pc">
+
+		<section class="cards-info">
+			<h1 class="title">PC</h1>
+			<section class="score">
+				<section class="points" id="pc-points">Punteggio<br /><span class="value">0</span></section>
+				<section class="message" id="pc-message"></section>
+			</section>
+		</section><!-- /.cards-info -->
+
+		<section class="card-container" id="pc-cards"></section>
+
+		<section class="clearfix"></section>
+	</section>
+
+	<section class="game-info">
+		<section class="title" id="info-message"></section>
+		<section class="deck-back">
+			<img src="images/card-back1.png" id="deck-back">
+		</section>
+		<section class="buttons">
+			<button class="btn" id="btn-start">Play</button>
+		</section>
+	</section>
+
+	<section class="card-wrapper" id="player">
+
+		<section class="cards-info">
+			<h1 class="title">YOU</h1>
+			<section class="score">
+				<section class="points" id="player-points">Punteggio<br /><span class="value">0</span></section>
+				<section class="message" id="player-message"></section>
+			</section>
+
+			<section class="actions">
+				<button class="btn" id="btn-pick"></button>
+				<button class="btn" id="btn-stop">Stop</button>
+			</section><!-- /.actions -->
+		</section><!-- /.cards-info -->
+
+		<section class="card-container" id="player-cards"></section>
+
+		<section class="clearfix"></section>
+	</section>
+</section>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
